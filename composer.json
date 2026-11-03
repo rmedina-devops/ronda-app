@@ -29,5 +29,9 @@
         "history-release": "conventional-changelog --history",
         "release": "conventional-changelog --commit --annotate-tag"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "require": {
+        "flightphp/core": "^3.19",
+        "catfan/medoo": "^2.6"
+    }
 }
