@@ -1,0 +1,33 @@
+{
+    "name": "renzomedina/ronda-app",
+    "description": "This game is called \"Ronda\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RenzoMedina",
+            "email": "medinast30@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/moodle/moodle.git"
+        }
+    ],
+    "require-dev": {
+        "marcocesarato/php-conventional-changelog": "^1.17"
+    },
+    "scripts": {
+        "changelog": "conventional-changelog",
+        "first-release": "conventional-changelog --first-release --annotate-tag",
+        "history-release": "conventional-changelog --history",
+        "release": "conventional-changelog --commit --annotate-tag"
+    },
+    "version": "1.0.0"
+}
