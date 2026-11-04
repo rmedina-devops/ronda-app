@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: ronda-app
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - .:/app
+    restart: unless-stopped

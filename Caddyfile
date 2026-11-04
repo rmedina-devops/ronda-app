@@ -1,0 +1,8 @@
+{
+    frankenphp
+}
+ronda-app.duckdns.org {
+    root * /app/public
+    encode zstd gzip
+    php_server
+}

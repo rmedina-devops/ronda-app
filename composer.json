@@ -32,6 +32,8 @@
     "version": "1.0.1",
     "require": {
         "flightphp/core": "^3.19",
-        "catfan/medoo": "^2.6"
+        "catfan/medoo": "^2.6",
+        "eftec/bladeone": "^5.0",
+        "level-2/dice": "^4.0"
     }
 }

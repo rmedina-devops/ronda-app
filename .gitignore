@@ -466,5 +466,5 @@ $RECYCLE.BIN/
 ### Composer ###
 composer.phar
 /vendor/
-
+.env
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,phpunit,vs,visualstudiocode
