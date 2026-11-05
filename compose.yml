@@ -8,3 +8,13 @@ services:
     volumes:
       - .:/app
     restart: unless-stopped
+  
+  css:
+    profiles: ["css"]
+    build:
+      context: .
+      target: css
+    working_dir: /src
+    command: tailwindcss -i resources/css/app.css -o public/css/app.css --watch=always
+    volumes:
+      - .:/src

@@ -1,0 +1,9 @@
+.git
+.env
+vendor
+app/storage/cache/views
+app/storage/logs
+tests
+docs
+node_modules
+public/css/app.css

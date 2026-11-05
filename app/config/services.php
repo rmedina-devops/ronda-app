@@ -8,7 +8,7 @@ $app = Flight::app();
 
 // Directorio de vistas y caché
 $viewsPath = __DIR__ . '/../Views';
-$cachePath = __DIR__ . '/../cache';
+$cachePath = __DIR__ . '/../storage/cache/views';
 
 $app->register('view', BladeOne::class, [$viewsPath, $cachePath, BladeOne::MODE_AUTO]);
 $app->map('render', function ($template, $data = []) use ($app) {

@@ -467,6 +467,7 @@ $RECYCLE.BIN/
 composer.phar
 /vendor/
 .env
-app/cache/
-app/logs/
+app/storage/cache/views/
+app/storage/logs/
+storage/*
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,phpunit,vs,visualstudiocode

@@ -1,10 +1,14 @@
 <?php
 
 return [
-    'app' => [
-        'env' => getenv('APP_ENV') ?: 'development',
-    ],
-    'database' => [
-        
-    ],
-];
+        'app' => [
+            'env' => 'development',
+        ],
+        'database' => [
+            
+        ],
+        'runway' => [
+            'index_root' => 'public/index.php',
+            'app_root' => 'app/',
+        ],
+    ];

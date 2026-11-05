@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ $title }}</title>
-</head>
-<body>
-    <h1>{{ $heading }}</h1>
+@extends('layout.app')
+@section('title')
+    {{ $title }}
+@endsection
+@section('content')
+    <h1 class="text-2xl font-bold">{{ $heading }}</h1>
     <p>¡Blade está funcionando correctamente en FlightPHP!</p>
-</body>
-</html>
+@endsection
