@@ -1,6 +1,6 @@
 <?php
 
-use App\Controller\UserController;
+use App\Controller\AuthController;
 
 $router->get('/', function () {
     echo Flight::view()->run('welcome', [
@@ -9,4 +9,4 @@ $router->get('/', function () {
     ]);
 });
 
-$router->get('/login', [UserController::class, 'login']);
+$router->get('/login', [AuthController::class, 'login']);

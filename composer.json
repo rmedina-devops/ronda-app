@@ -14,20 +14,16 @@
             "email": "medinast30@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/moodle/moodle.git"
-        }
-    ],
     "require-dev": {
-        "marcocesarato/php-conventional-changelog": "^1.17"
+        "marcocesarato/php-conventional-changelog": "^1.17",
+        "phpunit/phpunit": "^12.5"
     },
     "scripts": {
         "changelog": "conventional-changelog",
         "first-release": "conventional-changelog --first-release --annotate-tag",
         "history-release": "conventional-changelog --history",
-        "release": "conventional-changelog --commit --annotate-tag"
+        "release": "conventional-changelog --commit --annotate-tag",
+        "test" : "phpunit"
     },
     "version": "1.2.0",
     "require": {
@@ -35,6 +31,7 @@
         "catfan/medoo": "^2.6",
         "eftec/bladeone": "^5.0",
         "level-2/dice": "^4.0",
-        "flightphp/runway": "^1.2"
+        "flightphp/runway": "^1.2",
+        "vlucas/phpdotenv": "^5.8"
     }
 }

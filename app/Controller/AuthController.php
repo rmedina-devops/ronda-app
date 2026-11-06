@@ -3,7 +3,7 @@
 namespace App\Controller;
 use flight\Engine;
 
-class UserController {
+class AuthController {
 
     protected Engine $app;
     public function __construct(Engine $app) {
